@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark"
+    android:padding="20dp"
+    android:gravity="bottom"
+    >
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@drawable/nav_header_icon"
+        android:layout_marginStart="15dp"
+        android:contentDescription="@string/img_desc"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textColor="#ffffff"
+        android:paddingTop="5dp"
+        android:textSize="25sp"
+        android:fontFamily="@font/quattrocento" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/my_github_link"
+        android:textColor="#B2FFFFFF"
+        android:textSize="14sp" />
+
+</LinearLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/sideNavHome"
+            android:title="@string/home_page_title"
+            android:icon="@drawable/home_tab_icon"/>
+
+        <item
+            android:id="@+id/sideNavSettings"
+            android:title="@string/settings_title"
+            android:icon="@drawable/settings_icon"/>
+
+        <item
+            android:id="@+id/sideNavRecords"
+            android:title="@string/records_title"
+            android:icon="@drawable/records_icon"/>
+
+        <item
+            android:id="@+id/sideNavExit"
+            android:title="@string/exit_title"
+            android:icon="@drawable/exit_icon"/>
+
+        <item android:title="@string/profile_page_title">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/sideNavLogin"
+                        android:title="@string/login"
+                        android:icon="@drawable/login_icon"/>
+
+                    <item
+                        android:id="@+id/sideNavProfile"
+                        android:title="@string/my_profile"
+                        android:icon="@drawable/profile_icon"/>
+
+                    <item
+                        android:id="@+id/sideNavLogout"
+                        android:title="@string/logout"
+                        android:icon="@drawable/logout_icon"/>
+                </group>
+            </menu>
+        </item>
+
+
+
+        <item android:title="@string/households_title">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:checkable="true"
+                        android:checked="true"
+                        android:id="@+id/sideNavHousehold1"
+                        android:title="@string/household_item"
+                        android:icon="@drawable/households_icon"/>
+                </group>
+            </menu>
+        </item>
+
+
+        <item android:title="Social">
+            <menu>
+                <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/sideNavShare"
+                    android:title="@string/share"
+                    android:icon="@drawable/share_icon"/>
+
+                <item
+                    android:id="@+id/sideNavRateUs"
+                    android:title="@string/rate_us"
+                    android:icon="@drawable/rate_us_icon"/>
+                </group>
+            </menu>
+        </item>
+    </group>
+</menu>

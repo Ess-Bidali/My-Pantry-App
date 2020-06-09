@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "493871910105",
+    "firebase_url": "https://my-pantry-5e5fa.firebaseio.com",
+    "project_id": "my-pantry-5e5fa",
+    "storage_bucket": "my-pantry-5e5fa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:493871910105:android:5448051ecc85f8875e02c8",
+        "android_client_info": {
+          "package_name": "com.essbidali.pantrywatcher"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "493871910105-g5t1ta9mah64t9ogvggndvod4ca2lhes.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.essbidali.pantrywatcher",
+            "certificate_hash": "6b8269763237d7adb88c30261cef7af1b85bac77"
+          }
+        },
+        {
+          "client_id": "493871910105-qo2kff8a5klo44qap975l9d86gfbr5u5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzcqdT9VBFQoaglB8QQwZz-zoZual4yRI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "493871910105-qo2kff8a5klo44qap975l9d86gfbr5u5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

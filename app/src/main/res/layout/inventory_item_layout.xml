@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:id="@+id/itemLinerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/rounded_background"
+    android:paddingStart="5dp"
+    android:paddingLeft="5dp"
+    android:paddingEnd="5dp"
+    android:paddingRight="5dp"
+    android:clickable="true"
+    android:focusable="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp">
+
+
+        <CheckBox
+            android:id="@+id/itemCheckBox"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/itemNumberTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="5dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="3dp"
+            android:paddingStart="1dp"
+            android:paddingLeft="1dp"
+            android:paddingEnd="1dp"
+            android:paddingRight="1dp"
+            android:text="@string/holder_num"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/productNameTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="3"
+            android:fontFamily="@font/padauk"
+            android:gravity="center_vertical"
+            android:padding="3dp"
+            android:text="@string/holder_text"
+            android:textColor="@color/colorTextOnWhite"
+            android:textSize="19sp" />
+
+        <ProgressBar
+            android:id="@+id/usageProgressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_weight="3" />
+
+        <Button
+            android:id="@+id/contextMenuButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:backgroundTint="#00000000"
+            android:outlineProvider="none"
+            android:textAlignment="center"
+            app:icon="@drawable/context_menu_icon"
+            app:iconGravity="textStart"
+            app:iconPadding="8dp"
+            android:layout_margin="3dp"
+            app:iconTint="@color/colorPrimaryDark" />
+
+
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/divider4"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:drawable/divider_horizontal_bright" />
+
+
+
+</LinearLayout>

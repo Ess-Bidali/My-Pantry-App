@@ -1,0 +1,136 @@
+<resources>
+    <string name="app_name">My Pantry</string>
+    <string name="my_github_link">https://github.com/Ess-Bidali</string>
+    <string name="holder_num">(0)</string>
+    <string name="holder_text">Holder text</string>
+    <string name="learn_more">Learn more</string>
+
+    <!--   Dialog Strings  -->
+    <string name="dialog_negative_btn">Cancel</string>
+    <!--   Edit Dialog Strings  -->
+    <string name="edit_dialog_positive_btn">Update</string>
+    <!--   Delete Dialog Strings  -->
+    <string name="delete_dialog_positive_btn">Yes</string>
+
+
+    <!--    Menu Titles  -->
+    <string name="settings_title">Settings</string>
+    <string name="records_title">Records</string>
+    <string name="exit_title">Exit</string>
+    <string name="households_title">Households</string>
+    <string name="household_item">Household</string>
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="my_profile">My Profile</string>
+    <string name="share">Share</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="navigation_drawer_open">Open side navigation</string>
+    <string name="navigation_drawer_close">Close side navigation</string>
+
+    <!--    Context Menu Titles  -->
+    <string name="remove_from_inventory">Remove from inventory</string>
+    <string name="update_current_stock">Update current stock</string>
+    <string name="restock">Restock this item</string>
+
+
+    <!--    Home Page Fragment Titles  -->
+    <string name="home_page_title">Home</string>
+    <string name="inventory_page_title">Inventory</string>
+    <string name="notification_page_title">Notifications</string>
+    <string name="shopping_list_page_title">Shopping List</string>
+    <string name="profile_page_title">Profile</string>
+
+    <!--    Home Fragment Texts  -->
+    <string name="summary_text">Summary</string>
+    <string name="shopping_list_items">Shopping list items</string>
+    <string name="orange_zone_items">Orange-zone items</string>
+    <string name="red_zone_items">Red-zone items</string>
+    <string name="other_notifications">Other notifications</string>
+
+    <!--    Inventory Fragment Texts  -->
+    <string name="add">Add a new item to inventory</string>
+    <string name="items_in_stock">Inventory items</string>
+    <string name="product_last_restock">Last restock</string>
+    <string name="product_restock_quantity">Last restocked quantity</string>
+    <string name="product_current_quantity">Current estimated quantity</string>
+    <string name="bottom_nav_filter1">All items</string>
+    <string name="red_zone_category">Red-Zone</string>
+    <string name="orange_zone_category">Orange-Zone</string>
+    <string name="green_zone_category">Green-Zone</string>
+
+    <!--    Notifications Fragment Texts  -->
+    <string name="new_notifications">New</string>
+    <string name="earlier_notifications">Earlier</string>
+    <string name="category_shopping">shopping</string>
+    <string name="category_inventory">inventory</string>
+    <string name="category_household">household</string>
+    <string name="category_profile">profile</string>
+
+    <!--    Shopping List Fragment Texts  -->
+    <string name="modify_list">Add to shopping list</string>
+    <string name="add_item_to_list">Add item from current inventory</string>
+    <string name="total_items">Total items:</string>
+    <string name="add_a_new_product_to_list">Add a new unrecorded item</string>
+
+    <!--    Household Fragment Texts  -->
+    <string name="edit_image_desc">Edit icon</string>
+    <string name="add_new_household">Create a new household</string>
+    <string name="delete_this_household">Delete this household</string>
+
+
+    <!--    Alerts  -->
+    <string name="exit_snackbar">Exiting the application</string>
+    <string name="snackbar_exit_abort">Stop</string>
+
+    <!--    Content Titles  -->
+    <string name="tag_line">Hustle free home inventory</string>
+    <string name="login_title">Sign in to continue</string>
+    <string name="register_title">First step, Create an account.</string>
+    <string name="register_welcome_title">Welcome. \nLet\'s get started</string>
+    <string name="login_welcome_title">Hello there. \nNice to see you back!</string>
+
+    <!--    Descriptions  -->
+    <string name="logo_desc">My Pantry app logo</string>
+    <string name="profile_image_desc">Profile image</string>
+
+    <!--    Hints  -->
+    <string name="password_hint">Password</string>
+    <string name="username_hint">Username</string>
+    <string name="fullname_hint">Full Name</string>
+    <string name="email_hint">Email</string>
+    <string name="phone_number_hint">Phone Number</string>
+
+
+    <!--    Buttons  -->
+    <string name="logout_button">Logout</string>
+    <string name="login_btn">Sign in</string>
+    <string name="update_btn">Update</string>
+    <string name="new_user_btn">New user? Sign up here</string>
+    <string name="register_btn">Sign up</string>
+    <string name="already_registered_btn">Already registered? Click here to Log in instead</string>
+    <string name="forget_password_btn">Forgot Password?</string>
+
+    <!--        Onboarding screen        -->
+    <!--    Titles  -->
+    <string name="first_slide_title">Select the products you want to track</string>
+    <string name="second_slide_title">Monitor your usage</string>
+    <string name="third_slide_title">Track and plan your shopping</string>
+    <string name="fourth_slide_title">Customize and begin!</string>
+
+    <!--    Descriptions  -->
+    <string name="first_slide_desc">You can pick out a selection of products that you\'d want to monitor, or add a product of your own</string>
+    <string name="second_slide_desc">No more uncertainties. Do your home shopping based on accurate estimations, from your own data!</string>
+    <string name="third_slide_desc">Forget the hassle of hoarding shopping receipts, or recalling the quantities you bought last time. Just record it once, and access it anytime</string>
+    <string name="fourth_slide_desc">Our array of features is always up for improvement. Your feedback and suggestions are welcome.</string>
+    <string name="img_desc">Decorative illustration image</string>
+
+    <!--    Buttons -->
+    <string name="skip_button">Skip</string>
+    <string name="next_button">Next</string>
+    <string name="lets_get_started_button">Let\'s Get Started!</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
